@@ -1,7 +1,7 @@
 ## This pair of functions can be used to calculate the inverse of a Matrix
 ## 1- Create an object this way: TempObject = makeCacheMatrix ( YourData )
 ## 2- Calculate the inverse matrix : InverseM = cachesolve(TempObject)
-## 3- For changing the data, execute: matx$set( NewData )
+## 3- For changing the data, execute: TempObject$set( NewData )
 ## 4- Calculate the inverse matrix : InverseM = cachesolve(TempObject)
 
 ## --------------------- makeCacheMatrix --------------------------------
